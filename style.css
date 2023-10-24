@@ -1,0 +1,101 @@
+body {
+    background: rgb(212, 73, 13) ;
+    background-size:cover ;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    font-family: sans-serif;
+    
+   
+} 
+
+.container {
+    position: relative;
+    margin-top: 100px;
+    width: 723px;
+    background: #37383a;
+    
+    
+    
+}
+
+
+
+.label {
+   
+    padding: 20px 260px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+@media (max-width: 500px){
+    .label{
+        
+        padding: 20px 160px;
+    }
+}
+@media (max-width: 750px){
+    .label{
+        
+        padding: 20px 160px;
+    }
+}
+
+
+.login_form {
+    padding: 20px 40px;
+
+}
+.login_form .font {
+    font-size: 18px;
+    color: white;
+    margin-left: 125px;
+}
+.login_form input {
+    height: 40px;
+    width: 350px;
+    padding: 0 5px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid silver;
+    margin-left: 125px;
+}
+.login_form .font2 {
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    margin-left: 125px;
+}
+.login_form button {
+    margin: 45px 0 30px 0;
+    height: 45px;
+    width: 365px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: #1A237E;
+    border-radius: 3px;
+    border: 1px solid #3949AB;
+    margin-left: 125px;
+    
+}
+.login_form button:hover {
+    background: #151c6a;
+}
+.login_form #email_error, .login_form #password_error {
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color: #c62828;
+    background: rgba(255, 0, 0, 0.1);
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #ef9a9a;
+    display: none;
+    margin-left: 125px;
+}
+
